@@ -7,6 +7,7 @@ namespace PartsUnlimited.Models
     //[Bind(Include = "FirstName,LastName,Address,City,State,PostalCode,Country,Phone,Email")]
     public class Order
     {
+        //Comment3
         [BindNever]
         [ScaffoldColumn(false)]
         public int OrderId { get; set; }
